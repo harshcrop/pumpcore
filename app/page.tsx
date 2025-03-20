@@ -71,7 +71,7 @@ export default function Home() {
               <Input
                 type="text"
                 placeholder="search for token"
-                className="bg-gray-900 border-gray-700 h-12 pl-4 pr-10 rounded-lg w-full"
+                className="bg-gray-900 border-gray-700 h-12 pl-4 pr-10 rounded-lg w-full text-white"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
@@ -115,10 +115,6 @@ export default function Home() {
 
           {/* Trending Coins Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* {trendingCoins.slice(0, 4).map((coin) => (
-              <CoinCard key={coin.id} coin={coin} />
-            ))} */}
-            {/* <CoinCard /> */}
             {allTokens?.map((tokenAddress) => (
               <CoinCard key={tokenAddress} tokenAddress={tokenAddress} />
             ))}
