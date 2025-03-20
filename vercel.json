@@ -1,7 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" },
-    { "source": "/coin/:address", "destination": "/coin/[address]" },
-    { "source": "/((?!coin/).*)", "destination": "/" }
+  "rewrites": [],
+  "routes": [
+    { "src": "/coin/[^/]+", "dest": "/coin/[address]" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
