@@ -378,7 +378,7 @@ export default function CreateCoinModal({ isOpen, setIsOpen }) {
 
             <Alert className="bg-blue-900/20 border-blue-800 text-blue-400">
               <AlertDescription>
-                Creating a token requires a 0.01 ETH initial deposit to set up
+                Creating a token requires a 0.01 TCORE initial deposit to set up
                 liquidity
               </AlertDescription>
             </Alert>

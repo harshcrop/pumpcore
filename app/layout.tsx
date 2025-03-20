@@ -7,8 +7,8 @@ import { Providers } from "./providers.jsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Modern Pump.fun Clone",
-  description: "A modern UI clone of pump.fun with React and Tailwind CSS",
+  title: "pump.core",
+  description: "pump.core is a decentralized exchange for tCORE tokens.",
 };
 
 export default function RootLayout({
