@@ -1,0 +1,6 @@
+export const CONTRACT_ADDRESSES = {
+    baseERC20: '0x3cF931DdC74EB9458c299B8Db96F906E1Bf0779A',
+    pumpFactory: '0xc86AF17Fda5f1123635B9cf58EFB3824a05F961F',
+  }
+    
+        
