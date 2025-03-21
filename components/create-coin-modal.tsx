@@ -251,7 +251,9 @@ export default function CreateCoinModal({ isOpen, setIsOpen }) {
           <div className="text-center">
             <AlertCircle className="mx-auto h-12 w-12 text-yellow-500" />
             <h3>Wallet Connection Required</h3>
-            <ConnectKitButton />
+            <div className="flex justify-center mt-4">
+              <ConnectKitButton />
+            </div>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
