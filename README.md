@@ -3,7 +3,19 @@ pump.core
 
 ## Description
 
-A brief description of your project.
+Pump.Core is designed as a decentralized platform where users can seamlessly mint new tokens, similar to Pump.Fun but tailored for the CORE DAO ecosystem. Given that CORE DAO currently lacks native liquidity pool (LP) support, I have developed a smart contract that enables token creation using a bonding curve mechanism.
+
+How It Works
+Token Minting: Users can create new tokens by depositing a base amount of 0.01 TCORE. The token price and supply are dynamically determined based on bonding curve calculations.
+Flexible Liquidity Model: While the initial deposit requirement is fixed, future updates could introduce flexible deposits or LP integration for enhanced liquidity options.
+Trading & Analytics: Users can directly buy and sell tokens using TCORE, with real-time price updates. The platform provides detailed analytics, transaction history, and market charts.
+Security & Anti-Rug Measures
+To protect users from rug pulls and extreme price manipulation (pump-and-dump schemes), I have embedded security features directly into the smart contract. These protections ensure a fair and transparent trading environment.
+
+Sniper Bot Integration
+A sniper bot is also being developed, allowing users to receive instant notifications about new token launches on Pump.Core. Users can buy tokens directly through the bot or via the platform's UI.
+
+This project aims to bring secure, efficient, and automated token trading to the CORE DAO ecosystem while addressing the challenges of liquidity and market stability.
 
 ## Project Structure
 
